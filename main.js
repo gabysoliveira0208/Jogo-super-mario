@@ -3,6 +3,9 @@ const pipe = document.querySelector(".pipe");
 const startButton = document.queryselector(".start");
 const gameOverScreen = document.querySelector(".game-over");
 
+audioStart = new Audio("./sound/audio_theme.mp3");
+const gameOverSound = new Audio("./sound/audio_gameover.mp3");
+
 let gameStarded = false;
 
 const startGame = () => {
