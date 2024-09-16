@@ -57,3 +57,8 @@ const loop = setInterval(() => {
      },10);
 
 document.addEventlistener('keydown', jump);
+
+const restartGame = () => {
+
+     window.location.reload();
+}
