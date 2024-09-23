@@ -23,7 +23,7 @@
     position: absolute;
     bottom: 0;
     width: 80px;
-    animation: pipe-animation 1.5s infinite linear;
+
 }
 
 .mario {
@@ -33,7 +33,7 @@
 }
 
 .jump {
-    animation: jump 500m ease-out;
+    animation: jump 500ms ease-out;
 }
 
 .nuvem {
@@ -88,7 +88,7 @@ button.start {
     height: 100vh;
     background: rgba(0, 0, 0, 0.2);
     display: none;
-    alig-items: center;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     position: fixed;
