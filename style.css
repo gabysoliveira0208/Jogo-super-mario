@@ -43,8 +43,8 @@
 }
 
 button {
-    background: green;
-    color: white;
+    background:  dark green;
+    color: black;
     font-weight: bold;
     font-size: 1.5rem;
     border: none;
@@ -71,7 +71,7 @@ button.start {
       top: 10px;
       right: 10px;
       background-color: rgba(0, 0, 0, 0.5);
-      color: white;
+      color: black;
       font-size: 24px;
       padding: 10px;
       border-radius: 8px;
