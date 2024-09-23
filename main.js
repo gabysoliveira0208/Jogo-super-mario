@@ -1,6 +1,6 @@
 const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
-const nuvem = document.querySelector(".nuvem);
+const nuvem = document.querySelector(".nuvem");
 const startButton = document.querySelector(".start");
 const gameOverScreen = document.querySelector(".game-over");
 const scoreElement = document.querySelector(".score");
@@ -11,8 +11,8 @@ const gameOverSound = new Audio("./sound/audio_gameover.mp3");
 let gameStarted = false;
 let score = 0;
 
-const gameStart = () => {
-gameStart = true;
+const startGame = () => {
+gameStarted = true;
 audioStart.play();
      
 pipe.style.animation = "pipe-animation 1.5s infinite linear";
@@ -68,7 +68,7 @@ const loop = setInterval(() => {
      }
      }, 10);
 
-document.addEventlistener('keydown', jump);
+document.addEventListener('keydown', jump);
 
 const restartGame = () => {
 
