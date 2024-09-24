@@ -43,7 +43,7 @@
 }
 
 button {
-    background:  dark green;
+    background:  rgb(219, 122, 230);
     color: black;
     font-weight: bold;
     font-size: 1.5rem;
@@ -57,9 +57,9 @@ button {
 }
 
 button:hover {
-    border: 2px solid green;
+    border: 2px solid rgba(219, 122, 230);
     background: none;
-    color: green;
+    color:  rgba(219, 122, 230);
 }
 
 button.start {
