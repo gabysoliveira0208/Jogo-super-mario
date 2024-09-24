@@ -98,7 +98,7 @@ button.start {
 
 .game-over h1 {
     font-size: 3rem;
-    color: red;
+    color: rgb(152, 195, 45);
     text-align: center;
     margin-top: 15em;
 }
